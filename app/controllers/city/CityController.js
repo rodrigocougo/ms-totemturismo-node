@@ -1,4 +1,4 @@
-const CityService = require('../../services/City/CityService');
+const CityService = require('../../services/city/CityService');
 const errorHandler = require('../../utils/ErrorHandler');
 const BusinessError = require('../../utils/BusinessError');
 const { logger } = require('../../../config/winston');

@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  server:
+    container_name: lit-ms-company
+    image: lit-ms-company-node
+    build: .
+    restart: always
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3000:3000
+      - 9229:9229
+    links: 
+      - mongo
+    depends_on:
+      - mongo
+    networks:
+      - lit-network
+    command: node --inspect=0.0.0.0:9229 app.js
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - /data/db:/data/db
+    networks:
+      - lit-network
+networks:
+  lit-network:
+    driver: bridge

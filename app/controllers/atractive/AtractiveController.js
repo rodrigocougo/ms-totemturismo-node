@@ -1,4 +1,4 @@
-const AtractiveService = require('../../services/Atractive/AtractiveService');
+const AtractiveService = require('../../services/atractive/AtractiveService');
 const errorHandler = require('../../utils/ErrorHandler');
 const BusinessError = require('../../utils/BusinessError');
 const { logger } = require('../../../config/winston');

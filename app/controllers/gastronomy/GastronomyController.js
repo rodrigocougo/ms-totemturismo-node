@@ -1,4 +1,4 @@
-const GastronomyService = require('../../services/Gastronomy/GastronomyService');
+const GastronomyService = require('../../services/gastronomy/GastronomyService');
 const errorHandler = require('../../utils/ErrorHandler');
 const BusinessError = require('../../utils/BusinessError');
 const { logger } = require('../../../config/winston');

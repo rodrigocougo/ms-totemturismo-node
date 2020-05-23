@@ -1,4 +1,4 @@
-const PdvService = require('../../services/Pdv/PdvService');
+const PdvService = require('../../services/pdv/PdvService');
 const errorHandler = require('../../utils/ErrorHandler');
 const BusinessError = require('../../utils/BusinessError');
 const { logger } = require('../../../config/winston');

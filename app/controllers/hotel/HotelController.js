@@ -1,4 +1,4 @@
-const HotelService = require('../../services/Hotel/HotelService');
+const HotelService = require('../../services/hotel/HotelService');
 const errorHandler = require('../../utils/ErrorHandler');
 const BusinessError = require('../../utils/BusinessError');
 const { logger } = require('../../../config/winston');

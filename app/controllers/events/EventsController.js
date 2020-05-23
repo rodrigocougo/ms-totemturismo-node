@@ -1,4 +1,4 @@
-const EventsService = require('../../services/Events/EventsService');
+const EventsService = require('../../services/events/EventsService');
 const errorHandler = require('../../utils/ErrorHandler');
 const BusinessError = require('../../utils/BusinessError');
 const { logger } = require('../../../config/winston');

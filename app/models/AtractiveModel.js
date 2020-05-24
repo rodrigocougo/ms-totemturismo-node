@@ -10,6 +10,7 @@ const schema = Schema({
     Photo: { type: String, size: 50, name: "atractive.label.photo" },
     ServiceHours: { type: String, size: 50, name: "atractive.label.servicehours" },
     Description: { type: String, size: 50, name: "atractive.label.description" },
+    Category: { type: String, size: 50, name: "city.label.category" },
     CreateAt: { type: String, size: 50, name: "atractive.label.createat" },
     RegisterCreateAt: { type: String, size: 50, name: "atractive.label.registercreateat" },
     UpdateAt: { type: String, size: 50, name: "atractive.label.updateat" },

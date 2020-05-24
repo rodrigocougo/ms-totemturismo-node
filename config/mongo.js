@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const { logger } = require('./winston');
 
 //const host = process.env.HOST || '10.150.219.250';
-const host = process.env.HOST || '3.16.44.196';
+const host = process.env.HOST || 'ec2-3-16-44-196.us-east-2.compute.amazonaws.com';
 const port = process.env.HOST || '27017';
 //const password = 'W*!fK8SX.jD{w>W*';
 const password = 'K#@zXoI0*SCx}zmN';

@@ -39,7 +39,7 @@
 	"devDependencies": {
 		"express-status-monitor": "^1.2.6",
 		"jest": "^24.9.0",
-		"mocha": "^6.2.0",
+		"mocha": "^10.2.0",
 		"mockingoose": "^2.13.2",
 		"nodemon": "^1.19.1"
 	},
